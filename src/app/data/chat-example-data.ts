@@ -22,8 +22,8 @@ const tWait: Thread    = new Thread('tWait', wait.name, wait.avatarSrc);
 const initialMessages: Array<Message> = [
   new Message({
     author: me,
-    sentAt: moment().subtract(45, 'minutes').toDate(),
-    text: 'Yet let me weep for such a feeling loss.',
+    sentAt: moment().subtract(59, 'minutes').toDate(),
+    text: 'I appreciate the level of Your Ambbition',
     thread: tLadycap
   }),
   new Message({
