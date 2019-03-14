@@ -22,14 +22,14 @@ const tWait: Thread    = new Thread('tWait', wait.name, wait.avatarSrc);
 const initialMessages: Array<Message> = [
   new Message({
     author: me,
-    sentAt: moment().subtract(59, 'minutes').toDate(),
-    text: 'I appreciate the level of Your Ambbition',
+    sentAt: moment().subtract(30, 'minutes').toDate(),
+    text: 'I appreciate the level of Your Toastiness',
     thread: tLadycap
   }),
   new Message({
     author: ladycap,
-    sentAt: moment().subtract(20, 'minutes').toDate(),
-    text: 'So shall you feel the loss, but not the friend which you weep for.',
+    sentAt: moment().subtract(25, 'minutes').toDate(),
+    text: 'So I no longer feel the loss, but not the friend which you weep for.',
     thread: tLadycap
   }),
   new Message({
